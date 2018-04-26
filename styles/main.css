@@ -1,0 +1,256 @@
+/*
+font-family: 'Playball', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    margin: 15px;
+    background-color: #bb0c23;
+    
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    font-size: 4em;
+    color: #fff;
+}
+
+#pageTitle {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playball', cursive;
+    font-size: 2em;
+    color: #fff;
+}
+
+#subTitle {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Playball', cursive;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#instruct {
+    text-align: center;
+}
+
+#app {
+    width: 90%;
+}
+
+#errorOutput {
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* login ***********************************************************************/
+
+
+.userForm {
+    margin: 0 auto;
+    width: 210px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
+    display: block;
+    background-color: #fff;
+    color: #075307;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+input[type="button"] {
+    display: block;
+    background-color: #075307;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #086d08;
+    color: #fff;
+}
+
+
+#swapLogin {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+
+#logoutBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+}
+
+/* Address Management  ***********************************************************************/
+#addressManagement {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#addAddressForm {
+    margin: 0 auto;
+    width: 210px;
+    padding-bottom: 10px;
+}
+
+#addressList {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #075307;
+    border-top: solid 1px #075307;
+}
+
+select {
+    display: block;
+    border: none;
+    padding: 5px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+button {
+    display: block;
+    background-color: #075307;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    width: 210px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #086d08;
+    color: #fff;
+}
+
+/* Pizza Management  ***********************************************************************/
+
+#pizzaManagement {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.toppingLabel {
+    color: #ff7676;
+}
+
+.noMargin {
+    margin: 0px;
+    padding: 0px;
+}
+
+.resize {
+    font-size: 1em;
+}
+
+.removeBtn {
+    float: left;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.removeBtn:hover {
+    background-color: #7c0011;
+}
+
+.pizzaLI {
+    padding: 10px 10px 50px 10px;
+    padding-bottom: 50px;
+    background-color: #991212;
+    margin: 10px;
+}
+
+/* Customize Pizza  ***********************************************************************/
+#customizePizza {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#pizzaOptions {
+    margin-left: 60px;
+    width: 30%;
+    float: left;
+}
+
+.optionSelect {
+    display: block;
+
+}
+
+label {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+#toppingContainer {
+    width: 300px;
+    float: right;
+    padding-left: 0px;
+}
+
+.toppingChoice {
+    padding-bottom: 5px;
+}
+
+#buttonContainer {
+    clear: both;
+    padding-top: 15px;
+}
+.subBtn {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Submit Order *********************************************************/
+
+#submitOrder {
+    margin: 0 auto;
+    width: 500px;
+}
+
+#estimatedTime {
+    font-size: 1.2em;
+}
